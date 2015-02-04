@@ -1,0 +1,5 @@
+1. max number of blocks - 100 - if need more than that need to increase "max_input_vars" in php.ini
+2. regions_hidden[] = the_region_name - hidden regions - $page_top, $page_bottom  - Toolbar modules usees $page_top
+3. $page_bottom region replaces the $closure - Google Analytics module uses this region
+4. Drupal uses hook_system_info_alter() to declare the page_top and page_bottom hidden regions.
+5. Module regions - dashboad module
